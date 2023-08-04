@@ -1,0 +1,21 @@
+:root {
+  --white: #fff;
+  --navy-blue: #13183f;
+  --grey: #83869a;
+  --blue-greyish: #666ca3;
+  --pink: #f74780;
+  --light-pink: #ffa7c3;
+  --pink-gradient: #f02aa6 - #ff6f48;
+  --blue-pink-gradient: #4851ff - #f02aa6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Typography */
+html {
+  font-size: 62.5%;
+}
