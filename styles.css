@@ -66,6 +66,10 @@ h3 {
   font-size: 1.4rem;
 }
 
+.container {
+  max-width: 1110px;
+}
+
 @media screen and (min-width: 1440px) {
   body {
     font-size: var(--BodyM-fontSize);
@@ -201,4 +205,14 @@ a {
   .card__heading {
     margin-bottom: 2.4rem;
   }
+}
+
+/* Footer */
+
+.footer {
+  background: var(--navy-blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem 0;
 }
