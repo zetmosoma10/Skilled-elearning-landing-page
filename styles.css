@@ -1,4 +1,5 @@
 :root {
+  /* Colors */
   --white: #fff;
   --navy-blue: #13183f;
   --grey: #83869a;
@@ -7,6 +8,18 @@
   --light-pink: #ffa7c3;
   --pink-gradient: #f02aa6 - #ff6f48;
   --blue-pink-gradient: #4851ff - #f02aa6;
+
+  /* Typography */
+  /* Headings */
+  --HeadingXL-fontSize: 5.6rem;
+  --HeadingL-fontSize: 4rem;
+  --HeadingM-fontSize: 3.2rem;
+  --HeadingS-fontSize: 2.4rem;
+  /* Texts */
+  --BodyM-fontSize: 1.8rem;
+  --BodyM-fontWeight: medium;
+  --BodyS-fontSize: 1.6rem;
+  --BodyS-fontWeight: bold;
 }
 
 *,
@@ -18,4 +31,68 @@
 /* Typography */
 html {
   font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: var(--grey);
+  font-size: var(--BodyS-fontSize);
+  font-weight: var(--BodyM-fontWeight);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--navy-blue);
+  font-weight: 800;
+}
+
+h1 {
+  font-size: var(--HeadingL-fontSize);
+}
+
+h2 {
+  font-size: var(--HeadingS-fontSize);
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.text-bold {
+  font-size: 1.4rem;
+}
+
+.logo {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--navy-blue);
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: var(--BodyM-fontSize);
+  }
+  h1 {
+    font-size: var(--HeadingXL-fontSize);
+  }
+
+  h2 {
+    font-size: var(--HeadingM-fontSize);
+  }
+
+  h3 {
+    font-size: var(--HeadingS-fontSize);
+  }
+
+  .text-bold {
+    font-size: var(--BodyS-fontSize);
+  }
+
+  .logo {
+    font-size: 3.6rem;
+  }
 }
