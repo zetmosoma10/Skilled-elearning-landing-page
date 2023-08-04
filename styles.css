@@ -244,6 +244,9 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
+  .grid-1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .grid-2x3 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -257,5 +260,33 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     row-gap: 5.6rem;
+  }
+}
+
+/* Hero */
+
+.hero__image {
+  width: 100%;
+}
+
+.hero__content {
+  align-self: center;
+}
+
+.hero__heading {
+  margin-bottom: 2.6rem;
+}
+
+.hero__content .btn {
+  margin-top: 2.4rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .hero__heading {
+    margin-bottom: 2.9rem;
+  }
+
+  .hero__content .btn {
+    margin-top: 4rem;
   }
 }
