@@ -17,5 +17,144 @@
       type="image/x-icon"
     />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="container">
+        <img class="nav__logo" src="Assets/logo-dark.svg" alt="" />
+        <button class="btn btn--dark">Get Started</button>
+      </nav>
+    </header>
+    <section class="container hero grid grid grid-1x2">
+      <div class="hero__content">
+        <h1 class="hero__heading">Maximize skill, minimize budget</h1>
+        <p>
+          Our modern courses across a range of in-demand skills will give you
+          the knowledge you need to live the life you want.
+        </p>
+        <button class="btn btn--pink">Get Started</button>
+      </div>
+      <picture class="hero__image-container">
+        <!-- Mobile -->
+        <source
+          type="image/webp"
+          media="(max-width: 767px)"
+          srcset="
+            Assets/image-hero-mobile.webp    1x,
+            Assets/image-hero-mobile@2x.webp 2x
+          "
+        />
+        <source
+          type="image/png"
+          media="(max-width: 767px)"
+          srcset="
+            Assets/image-hero-mobile.png    1x,
+            Assets/image-hero-mobile@2x.png 2x
+          "
+        />
+        <!--  Tablet -->
+        <source
+          type="image/webp"
+          media="(min-width: 768px)"
+          media="(max-width: 1439px)"
+          srcset="
+            Assets/image-hero-tablet.webp    1x,
+            Assets/image-hero-tablet@2x.webp 2x
+          "
+        />
+        <source
+          type="image/png"
+          media="(min-width: 768px)"
+          media="(max-width: 1439px)"
+          srcset="
+            Assets/image-hero-tablet.png    1x,
+            Assets/image-hero-tablet@2x.png 2x
+          "
+        />
+
+        <!--  Desktop -->
+        <source
+          type="image/webp"
+          media="(min-width: 1440px)"
+          srcset="
+            Assets/image-hero-desktop.webp    1x,
+            Assets/image-hero-desktop@2x.webp 2x
+          "
+        />
+        <source
+          type="image/png"
+          media="(min-width: 1440px)"
+          srcset="
+            Assets/image-hero-desktop.png    1x,
+            Assets/image-hero-desktop@2x.png 2x
+          "
+        />
+
+        <img class="hero__image" src="Assets/image-hero-desktop.png" alt="" />
+      </picture>
+    </section>
+    <section class="container">
+      <di class="grid grid-1x2 grid-2x3 grid-3x2">
+        <!-- Special card -->
+        <div class="card--special">
+          <h2>Check out our most popular courses!</h2>
+        </div>
+        <!-- Card item 1 -->
+        <div class="card" >
+          <img class="icon" src="Assets/icon-animation.svg" alt="" />
+          <h3 class="card__heading">Animation</h3>
+          <p class="card__text">
+            Learn the latest animation techniques to create stunning motion design and captivate your audience.
+          </p>
+          <a class="link" href="#">Get Started</a>
+        </div>
+        <!-- Card item 2 -->
+        <div class="card" >
+          <img class="icon" src="Assets/icon-design.svg" alt="" />
+          <h3 class="card__heading">Design</h3>
+          <p class="card__text">
+            Create beautiful, usable interfaces to help shape the future of how
+            the web looks.
+          </p>
+          <a class="link" href="#">Get Started</a>
+        </div>
+      </div>
+        <!-- Card item 3 -->
+        <div class="card" >
+          <img class="icon" src="Assets/icon-photography.svg" alt="" />
+          <h3 class="card__heading">Photography</h3>
+          <p class="card__text">
+           Explore critical fundamentals like lighting, composition, and focus to capture exceptional photos.
+          </p>
+          <a class="link" href="#">Get Started</a>
+        </div>
+      </div>
+        <!-- Card item 4 -->
+        <div class="card" >
+          <img class="icon" src="Assets/icon-crypto.svg" alt="" />
+          <h3 class="card__heading">Crypto</h3>
+          <p class="card__text">
+           All you need to know to get started investing in crypto. Go from beginner to advanced with this 54 hour course.
+          </p>
+          <a class="link" href="#">Get Started</a>
+        </div>
+      </div>
+        <!-- Card item 5 -->
+        <div class="card" >
+          <img class="icon" src="Assets/icon-business.svg" alt="" />
+          <h3 class="card__heading">Business</h3>
+          <p class="card__text">
+            A step-by-step playbook to help you start, scale, and sustain your business without outside investment.
+          </p>
+          <a class="link" href="#">Get Started</a>
+        </div>
+      </div>
+      </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer__content">
+            <img src="Assets/logo-light.svg" alt="" />
+            <button class="btn btn--blue">Get Started</button>
+        </div>
+    </footer>
+  </body>
 </html>
