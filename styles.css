@@ -126,7 +126,7 @@ a {
 }
 
 .btn--pink {
-  background-image: linear-gradient(#f02aa6, #ff6f48);
+  background-image: linear-gradient(#ff6f48, #f02aa6);
   padding: 1.8rem 3.5rem;
 }
 
@@ -180,6 +180,18 @@ a {
 
 .card__text {
   margin-bottom: 2.4rem;
+}
+
+.card--special {
+  max-width: 350px;
+  border-radius: 15px;
+  /* font-size: var(--HeadingS-fontSize); */
+  background-image: linear-gradient(#ff6f48, #f02aa6);
+  padding: 3rem 7.5rem 3rem 2.5rem;
+}
+
+.card--special h2 {
+  color: var(--white);
 }
 
 @media screen and (min-width: 1440px) {
